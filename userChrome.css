@@ -1,13 +1,19 @@
 /* On macos, the titlebar has to be made high enough */
 
 #navigation-toolbox, #tabmail-tabs,  #tabmail-arrowscrollbox{ /* Outer tab containers */
-    min-height: 44px !important;
+    min-height: 41px !important;
  }
+
+.icons-beside-text {
+    background-color: #3F3F46;
+    border: 0px !important;
+}
  
 .tabmail-tab { /* Give the tabs a bit of a margin */
-    margin-bottom: 6px !important;
-    margin-left: 3px !important;
-    margin-right: 3px !important;
+    margin-top: 1px !important;
+    margin-bottom: 4px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
 }
  
 .tab-background { /* Round tab corners and add a bit of padding */
@@ -36,6 +42,10 @@
 
 .themeable-brighttext {
     height: 40px !important;
+}
+
+.mail-toolbox {
+    margin-bottom: -3px !important;
 }
 
 .contentTabAddress {
